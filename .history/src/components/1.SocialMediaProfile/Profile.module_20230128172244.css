@@ -1,0 +1,8 @@
+@import-normalize;
+
+body {
+  background-color: #ffecff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
