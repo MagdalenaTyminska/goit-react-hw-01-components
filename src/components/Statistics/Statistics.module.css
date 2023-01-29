@@ -16,6 +16,10 @@
   box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.41);
 }
 
+.statistics:hover {
+  transform: scale(1.05);
+}
+
 .statList {
   display: flex;
   flex-direction: row;
@@ -32,6 +36,7 @@
   border: 1px solid rgb(190, 196, 195);
   border-bottom: none;
   border-right: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .item:first-child {
