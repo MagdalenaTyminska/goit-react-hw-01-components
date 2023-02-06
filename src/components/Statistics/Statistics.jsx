@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Statistics = ({ title, stats }) => (
   <section class={css.statistics}>
-    {title !== undefined && <h2 className={css.title}>{title}</h2>}
+    {title && <h2 className={css.title}>{title}</h2>}
 
     <ul className={css.statList}>
       {stats.map((stat, index) => (
